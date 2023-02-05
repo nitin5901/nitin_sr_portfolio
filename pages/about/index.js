@@ -1,16 +1,10 @@
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import {PointerAnimation } from "./pointerAnimation";
 import  Image  from 'next/image';
 import styles from './about.module.css'
 import {useEffect} from "react";
 
 const AboutMe = function (){
-    useEffect(()=>{
-        PointerAnimation();
-    },[]);
     return(
-        <>
-            <div className={styles.trailer} id="trailer"></div>
             <div className={styles.WrapperAbout}>
                 <div className={"about"} id={"about"}>
                     <h1 className={"salutation"}> Hello! I&apos;m Nitin, a <RoughNotation type="highlight"
@@ -63,7 +57,6 @@ const AboutMe = function (){
                     />
                 </div>
             </div>
-        </>
     )
 }
 
