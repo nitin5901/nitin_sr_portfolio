@@ -1,0 +1,43 @@
+
+.WrapperAbout{
+    position: fixed;
+    top:130px;
+    box-sizing: border-box;
+    padding: 0 250px;
+    margin: 70px 10px;
+    display: flex;
+}
+
+.socialMediaButton{
+    box-sizing: border-box;
+    padding: 12px 24px;
+    border: 0.5px solid #B2B2B2;
+    background-color: transparent;
+    width: 250px;
+    height: 45px;
+    font-size: 15px;
+    margin: 50px 10px;
+}
+.socialMediaButton:hover{
+    background-color: #0A0A0A;
+    color: #fafafa;
+}
+
+.trailer {
+    height: 25px;
+    width: 25px;
+    background-color: #A460ED;
+    border-radius: 20px;
+    border: 0.2px solid #FECD70;
+
+     position: absolute;
+     left: 0;
+     top: 0;
+
+
+     pointer-events: none;
+     opacity: 0.5;
+     transition: opacity 500ms ease;
+
+ }
+

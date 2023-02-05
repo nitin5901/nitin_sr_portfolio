@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import PortfolioLayout from "../Components/portfolioLayout";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return(
+          <PortfolioLayout>
+              <Component {...pageProps} />
+          </PortfolioLayout>
+      );
 }
 
-export default MyApp
+export default MyApp;
