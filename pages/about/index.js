@@ -16,7 +16,7 @@ const AboutMe = function (){
                     />
                 </section>
                 <section style={{width: "45%",}}>
-                    <h2 className={styles.salutation}>Hi, I'm <span>Nitin</span></h2>
+                    <h2 className={styles.salutation}>Hi, I&apos;m <span>Nitin</span></h2>
                     <p className={styles.description}>
                         A final year student at Bennett University, major in ECE. I started coding since I was
                         in my High School which was very heavily focused on C++ and OOP. My journey with web development
@@ -41,7 +41,7 @@ const AboutMe = function (){
                             <Image src={"/line.svg"} alt={""} width={"30"} height={"40"} />
                             <Link href={"#"}> <Image src={"/twitter.svg"} alt={"Twitter"} width={"25"} height={"25"} /> </Link>
                         </div>
-                        <Button title={"Let's Chat"} style={{width: "230px"}}/>
+                        <Button title={"Let&apos;s Chat"} style={{width: "230px"}}/>
                     </div>
 
                 </section>
