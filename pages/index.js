@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Home.module.css"
 import Button from "../Components/Button/button";
 import Image from "next/image";
 

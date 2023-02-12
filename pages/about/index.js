@@ -1,5 +1,5 @@
-import  Image  from 'next/image';
-import styles from './about.module.css'
+import  Image  from "next/image";
+import styles from "./about.module.css"
 import Button from "../../Components/Button/button";
 import Link from "next/link";
 
