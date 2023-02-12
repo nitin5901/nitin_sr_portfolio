@@ -36,9 +36,9 @@ const AboutMe = function (){
                     <div className={styles.chatSection}>
                         <div style={{display: "flex", width: "40%",alignItems: "center", justifyContent: "space-evenly"}}>
                             <Link href={"#"}> <Image src={"/linkedin.svg"} alt={"Linkedin"} width={"25"} height={"25"} /> </Link>
-                            <Image src={"/line.svg"} alt={"|"} width={"30"} height={"40"} />
+                            <Image src={"/line.svg"} alt={""} width={"30"} height={"40"} />
                             <Link href={"#"}> <Image src={"/instagram.svg"} alt={"Instagram"} width={"25"} height={"25"} /> </Link>
-                            <Image src={"/line.svg"} alt={"|"} width={"30"} height={"40"} />
+                            <Image src={"/line.svg"} alt={""} width={"30"} height={"40"} />
                             <Link href={"#"}> <Image src={"/twitter.svg"} alt={"Twitter"} width={"25"} height={"25"} /> </Link>
                         </div>
                         <Button title={"Let's Chat"} style={{width: "230px"}}/>
