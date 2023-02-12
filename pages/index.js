@@ -23,6 +23,7 @@ export default function Home() {
         <section>
             <Image
                 src={"/Profile.png"}
+                alt={"Profile"}
                 loading="lazy"
                 width={350}
                 height={400}
