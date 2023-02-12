@@ -1,61 +1,33 @@
 import styles from '../styles/Home.module.css'
-import Overlay from "../Components/IntroOverlay/introOverlay";
-import NavigationBar from "../Components/NavigationBar/navigationBar";
-import Banner from "../Components/Banner/banner";
-import Cases from "../Components/Cases/cases";
-import {useEffect} from "react";
-import {gsap} from "gsap";
+import Button from "../Components/Button/button";
+import Image from "next/image";
 
 export default function Home() {
-    useEffect(()=>{
-        var tl = gsap.timeline();
-        tl.from(".headerContent",
-            {
-                y: 100,
-                ease: "power4.out",
-                duration: 1
-            })
-            .to(".headerContent",
-                {
-                    y: 0,
-                    delay: 1,
-                    duration: 1.6,
-                    stagger: {
-                        amount: 0.5
-                    }
-                })
-            .to(".overlayTop",{
-                duration: 1.6,
-                height: 0,
-                ease: "expo.inOut",
-                stagger: {
-                    amount: 0.4
-                }
-            })
-            .to(".overlayBottom",{
-                duration: 1.6,
-                width: 0,
-                ease: "expo.inOut",
-                delay: -.8,
-                stagger: {
-                    amount: 0.4
-                }
-            })
-            .to(".introOverlay",{
-                duration:0,
-                css: {
-                    display: "none"
-                }
-            })
-        ;
-        console.log(1);
-    },[])
+
   return (
-    <div id={"root"}>
-      <Overlay />
-      <NavigationBar />
-      <Banner />
-      <Cases />
+    <div id={"root"} className={styles.root}>
+        <section style={{width: "45%"}}>
+            <h2 className={styles.salutation}>Hello, I'm <span>Nitin Singh </span></h2>
+            <p className={styles.description}>
+                I love building tools that are user-friendly, simple and delightful. I have developed a working style that leans to flexibility , clarity and collaboration in any project be it small or a large one. I am currently looking for a new role as a frontend developer. Hire Me!
+            </p>
+            <Button
+                title={"Hire Me"}
+                style={{marginRight: "50px"}}
+            />
+            <Button
+                title={"Read My Work"}
+                style={{backgroundColor: "transparent", border: "2px solid #000000", color: "#000000"}}
+            />
+        </section>
+        <section>
+            <Image
+                src={"/Profile.png"}
+                loading="lazy"
+                width={350}
+                height={400}
+            />
+        </section>
     </div>
   )
 }

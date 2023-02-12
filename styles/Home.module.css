@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Lora:ital,wght@0,600;1,400&family=Poppins&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 .container {
   padding: 0 2rem;
 }
@@ -106,6 +107,30 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.root{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 60px;
+}
+
+.salutation{
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.description{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 40px 0;
 }
 
 
