@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Lora:ital,wght@0,600;1,400&family=Poppins&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.CardWrapper{
+    border: 0.5px solid black;
+    flex: 0 0 350px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 12px 15px 10px #888888;
+}
+
+.ImageContainer{
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+
+.projectTitle{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0.6rem;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #6C25E0;
+}
+
+.techStackContainer{
+    display: flex;
+    gap: 20px;
+    padding: 1rem 0.5rem;
+}
+
+.projectDescription{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20%;
+    padding: 0 0.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #273146;
+}
+
+.linkContainer{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.links{
+    display: flex;
+    align-content: baseline;
+}
+
+.links:hover > .iconImage{
+    animation: pop 0.4s linear 1;
+}
+.links span{
+    margin: auto 0.5rem;
+    color: #273146;
+}
+
+@keyframes pop{
+    50%  {transform: scale(1.5);}
+}
