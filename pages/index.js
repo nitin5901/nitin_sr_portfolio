@@ -22,10 +22,10 @@ export default function Home() {
         </section>
         <section>
             <Image
-                src={"/Profile.png"}
+                src={"/AboutProfile.jpg"}
                 alt={"Profile"}
                 loading="lazy"
-                width={350}
+                width={550}
                 height={400}
             />
         </section>
