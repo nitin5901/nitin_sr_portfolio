@@ -18,13 +18,9 @@
   "dependencies": {
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
-    "gsap": "^3.11.4",
-    "lucide-react": "^0.105.0-alpha.3",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.3",
-    "use-sound": "^4.0.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "dotenv-cli": "^6.0.0",
