@@ -5,25 +5,54 @@
     flex-direction: column;
     justify-content: space-between;
     width: 45%;
-    height: 500px;
+    height: 620px;
+    border: 0.1px solid black;
     border-radius: 20px;
     background-color: #FFFFFF;
     padding: 20px;
+    margin-top: -3rem;
 }
 
 .fieldset{
     border-radius: 10px;
+    border: 0.5px solid #000000;
     padding: 30px 10px;
+    margin-bottom: 10px;
 }
 
-.name{
+.inputBox{
     box-sizing: border-box;
-    width: 35%;
     height: 50px;
+    border: 1px solid grey;
+    box-shadow: 5px 10px 8px #888888;
     border-radius: 10px;
-    background: transparent;
+    background: white;
     padding: 15px;
     margin: 0 30px;
     text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    outline: none;
+}
 
+.name{
+    width: 35%;
+}
+
+.label{
+    display: block;
+    margin: 0 30px 10px;
+}
+.email{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.message{
+    width: 80%;
+    height: 150px;
+    overflow: scroll;
+    resize: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
 }
